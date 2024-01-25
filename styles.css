@@ -63,7 +63,7 @@ input[type=submit]:hover, input[type=submit]:focus {
 }
 
 /* Responsive styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .container {
         width: 95%;
         padding: 20px;
