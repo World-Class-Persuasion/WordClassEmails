@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join World Class Persuasion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/be5bx7s.png" alt="World Class Persuasion Logo" class="logo">
+        <h1>Become a Master of Influence</h1>
+        <p class="lead">Gain the competitive edge in digital marketing. Subscribe and get premium content delivered straight to your inbox.</p>
+        <form action="https://script.google.com/macros/s/AKfycbwuplVI7Dib_3EdH7lAb-rJavn4qnqfQ6x_QXUlQ_tX7qctsoCNek1Ts_J2zRsolj5N/exec" method="post">
+           <form id="myForm" onsubmit="handleSubmit(event)">
+            <input type="text" name="firstName" placeholder="First Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="submit" value="Unlock Secrets" title="Unlock exclusive content">
+        </form>
+    </div>
+    <script>
+function handleSubmit(event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Perform your data handling here - AJAX call or similar if needed
+    // For example, if using Google App Script, you might send data to the script
+
+// Redirect to the thank-you page
+window.location.href = 'https://dvatmarketing.github.io/WCP_Opt-In/thank-you.html';
+}
+</script>
+</body>
+</html>
