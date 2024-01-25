@@ -65,30 +65,30 @@ input[type=submit]:hover, input[type=submit]:focus {
 /* Responsive styles */
 @media only screen and (max-width: 800px) {
     .container {
-        width: 95%;
-        padding: 20px;
+        width: 110%;
+        padding: 10px;
     }
 
     .logo {
-        width: 140px; /* Slightly reduce the logo size for mobile */
+        width: 160px; /* Slightly reduce the logo size for mobile */
     }
 
     h1 {
-        font-size: 1.8em; /* Smaller headline for mobile */
+        font-size: 2.0em; /* Smaller headline for mobile */
     }
 
     .lead {
-        font-size: 1em; /* Smaller text for mobile */
+        font-size: 1.5em; /* Smaller text for mobile */
     }
 
     input[type=text], input[type=email], input[type=submit] {
-        width: 100%; /* Full-width inputs for mobile */
+        width: 110%; /* Full-width inputs for mobile */
         padding: 12px;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     input[type=submit] {
         padding: 15px 30px; /* Adjust button padding for mobile */
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
 }
