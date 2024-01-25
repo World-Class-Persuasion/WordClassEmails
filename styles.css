@@ -65,8 +65,8 @@ input[type=submit]:hover, input[type=submit]:focus {
 /* Responsive styles */
 @media only screen and (max-width: 850px) {
     .container {
-        width: 110%;
-        padding: 10px;
+        width: 100%;
+        padding: 5px;
     }
 
     .logo {
@@ -82,7 +82,7 @@ input[type=submit]:hover, input[type=submit]:focus {
     }
 
     input[type=text], input[type=email], input[type=submit] {
-        width: 110%; /* Full-width inputs for mobile */
+        width: 100%; /* Full-width inputs for mobile */
         padding: 12px;
         font-size: 1em;
     }
